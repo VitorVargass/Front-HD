@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --blue-1: #38b6ff;
+    --blue-2: #5271ff;
+    --blue-3: #004aad;
+}
+body {
+    font-family: 'Lato', Helvetica, Arial;
+    background-size: 1920px;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-text {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.img-text img {
+    width: 150px;
+}
+
+.img-text h1 {
+    font-size: 70px;
+    background-image: linear-gradient(to left, var(--blue-3), var(--blue-1));
+    color: transparent;
+    display: inline-block;
+    background-clip: text;
+}
+nav ul {
+    width: 500px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-right: 200px;
+}
+nav ul li {
+    margin: 0px 0px;
+    padding: 20px 0px;
+    font-size: 28px;
+    height: 50px;
+}
+ul li a {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue-2);
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li a:hover {
+    width: 150px;
+    color: var(--blue-3);
+    background-color: var(--blue-2);
+    border-radius: 50px;
+}
