@@ -8,21 +8,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-image: url('images/background.png');">
+<body>
+    <div class="video-width">
+        <video class="video-background" src="assets/video.mp4" autoplay loop muted></video>
+    </div>
     <header>
         <div class="img-text">
             <img src="images/Logo.png" alt="Logo">
             <h1>Support</h1>
         </div>
         <div>
-        <nav>
-            <ul>
-                <li><a href="">Login</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Registros</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Registros</a></li>
+                </ul>
+            </nav>
     </header>
+    <div class="content">
+        <div class="left">
+            <h1>Faça login em nosso site para ter acesso as nossas tecnologias!</h1>
+            <img class="img-decoration" src="images/computer.png" alt="image">
+        </div>
+        <form action="" method="post">
+        <div>
+            <h2>Login</h2>
+            <label for="name">Usuário:</label>
+            <input type="text" required placeholder="Digite seu nome de usuário">
+            <label for="">Senha:</label>
+            <input type="password" required placeholder="Digite sua senha">
+        </div>
+
+            <button type="submit">Submit</button>
+        </form>
+        <script src="LOGIN.js"></script>
+    </div>
+    </div>
 </body>
 
 </html>

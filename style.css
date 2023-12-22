@@ -62,7 +62,89 @@ ul li a {
 }
 nav ul li a:hover {
     width: 150px;
-    color: var(--blue-3);
+    color: white;
     background-color: var(--blue-2);
     border-radius: 50px;
+}
+.video-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    object-fit: cover;
+}
+.animate {
+    width: 500px; 
+}
+.title-home {
+    margin-top: 200px;
+    margin-left: 150px;
+    color: white;
+}
+.img-decoration {
+    width: 600px;
+    margin: 0px;
+    padding: 0px;
+}
+.left {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 70px 200px;
+}
+.left h1 {
+    color: white;
+    font-size: 45px;
+}
+.content {
+    display: flex;
+    align-items: center;
+}
+form {
+    background-color: white;
+    width: 470px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin-top: 60px;
+}
+form h2 {
+    text-align: center;
+    font-size: 45px;
+    color: var(--blue-2);
+}
+form label {
+    font-size: 23px;
+    margin-left: 20px;
+}
+form input {
+    height: 50px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 20px;
+    border: solid var(--blue-2) 2px;
+}
+form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: var(--blue-2);
+    border: none;
+    color: white;
+    font-size: 25px
 }
